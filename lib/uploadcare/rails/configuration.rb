@@ -9,7 +9,7 @@ module Uploadcare
       include Singleton
 
       CONFIG_GLOBAL_PARAMS = %w[
-        public_key secret_key cache_files cache_expires_in cache_namespace cdn_hostname
+        public_key secret_key cache_files cache_expires_in cache_namespace cdn_hostname cdn_base
         store_files_after_save store_files_async
         delete_files_after_destroy delete_files_async
       ].freeze
